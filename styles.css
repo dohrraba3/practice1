@@ -10,8 +10,7 @@ header {
 main {
     width: 90%;
     margin: 0 auto;
-    padding: 1em;
-    color: #333;
+    color: #eee;
     font-family: sans-serif;
     background-color: #444;
 }
@@ -19,29 +18,30 @@ main {
 nav {
     background-color: #333;
     color: #FFF;
-    font-size: 1em;
-    font-family:sans-serif;
+    height: 2em;
     margin: 0 auto;
+    padding-top: 1em;
     width: 100%;
     border-bottom: 1px solid #eee;
     text-align: center;
-    height: 2em;
 }
 
 nav li {
-
-    float: left;
-    padding: 1em;
-    border-right: 1px solid #eee;
-    list-style-type: none;
+    padding: 3em;
+    height: 2em;
     display: inline;
-    width: 30%;
-
 }
 
 
-nav li:hover {
-    background-color: green;
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: brown;
     cursor: pointer;
 }
 
@@ -59,6 +59,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 50%;
+  }
 }
 
 .about-shop {
