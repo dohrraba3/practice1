@@ -8,41 +8,57 @@ header {
 }
 
 main {
-    width: 90%;
+    max-width: 85%;
     margin: 0 auto;
     color: #eee;
     font-family: sans-serif;
-    background-color: #444;
+    background-color: #555;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    font-weight: lighter;
 }
 
 nav {
     background-color: #333;
-    color: #FFF;
-    height: 2em;
-    margin: 0 auto;
-    padding-top: 1em;
-    width: 100%;
-    border-bottom: 1px solid #eee;
-    text-align: center;
+    display:table;
+    border-collapse:collapse;
+    width:100%;
+    margin:0 0 20px;
+    padding:0;
+    list-style:none;
+    line-height: 2em;
 }
 
 nav li {
-    padding: 3em;
-    height: 2em;
-    display: inline;
+    display:table-cell;
+    width: 1%;
+    border:1px solid #fff;
+    vertical-align:middle;
+    text-align:center;
+    color: #f6546a;
+    font-size: 1.7em;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
 }
-
-
 
 nav li a {
     text-decoration: none;
-    color: #fff;
+    color: #f6546a;
+    display:block;
+    padding:10px 4px;
 }
 
 nav li a:hover{
     text-decoration: none;
-    color: brown;
+    color: #bada55;
     cursor: pointer;
+}
+
+h1 {
+  color: #f6546a;
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
 }
 
 footer {
@@ -51,7 +67,7 @@ footer {
     background-color: #333;
     color: #FFF;
     font-family: Helvetica, sans-serif;
-    padding: 0.3em;
+    padding: 1em;
 }
 
 img {
@@ -65,21 +81,49 @@ img {
   img {
     width: 50%;
   }
+  main {
+    width: 95%;
+  }
 }
 
 .about-shop {
-    padding: 0.5em;
-    background-color: rgba (160, 30, 30, 0.5);
+    padding: 1em;
+
 }
 
 .menu {
-    padding: 0.5em;
+    padding: 1em;
 }
 
 table {
-
-
+    text-align: center;
+    color: #444;
+    width: 100%;
+    margin-top: 1em;
 }
+
+table tr {
+    background-color: #eee;
+}
+
+.menutitle {
+    color: #fff;
+    font-weight: normal;
+    background-color: #444;
+    text-transform: capitalize;
+}
+
+.menu2, .menu4 {
+  background-color: #ccc;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover {
+    background-color: #f6546a;
+    color: white;
+    cursor: pointer;
+}
+
+/*
 
 .menu1:hover {
     background-color: #663333;
@@ -87,8 +131,8 @@ table {
     cursor: pointer;
 }
 
-.menu2:hover {
-    background-color: #CC0033;
+.menu2:hover, {
+    background-color: #f6546a;
     color: white;
     cursor: pointer;
 }
@@ -104,19 +148,26 @@ table {
     color: white;
     cursor: pointer;
 }
-
+*/
 .contact-us {
     clear: both;
-    padding: 0.5em;
+    padding: 1em;
+    text-align: center;
 }
 
 button {
-    background-color: #333;
+    background-color: #bada55;
     color: #FFF;
     border: none;
+    font-size: 1em;
+    padding: 0 1.1em;
 }
 
 button:hover {
-    background-color: green;
+    background-color: #11c2d7;
     cursor: pointer;
+}
+
+input [type='text']{
+    height: 2em;
 }

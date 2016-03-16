@@ -4,6 +4,7 @@
     <meta charset='utf-8'>
     <title>PracticeSite</title>
     <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -14,58 +15,74 @@
 
     <main>
       <nav>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Menu</a></li>
+        <li><a href="#ourStory">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
       </nav>
 
 
 
       <section class='about-shop' >
         <article >
+          <h1 id='ourStory'>Our Story</h1>
+          <img src="https://cdn2.iconfinder.com/data/icons/RocketTheme_eCommerce_Icon_Pack_1/256/shop2.png" />
           <p>
-            blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history
+            blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history  blah blah history history blah blah history history blah blah history history blah blah history history
           </p>
+          <p>
+            blah blah history history blah blah history history blah blah history history blah blah history history  blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history blah blah history history
+          </p>
+
         </article>
       </section>
+
       <section class='menu'>
+        <h1 id='menu'>Menu</h1>
+        <img src="http://www.misskatecuttables.com/uploads/shopping_cart/7895/large_bowl-of--ice-cream.png" />
         <table>
-          <tr>
+          <tr class='menutitle'>
             <td>
-              <p class='menu1'>
-                Cholocate Hazelnut
-              </p>
+              <p>Flavor</p>
+            </td>
+            <td>
+              <p>Calories</p>
             </td>
           </tr>
-          <tr>
+          <tr class='menu1'>
             <td>
-              <p class='menu2'>
-                Strawberry Almond
-              </p>
+              <p>Cholocate Hazelnut</p>
+            </td>
+            <td>
+              <p>350</p>
             </td>
           </tr>
-          <tr>
-            <td>
-              <p class='menu3'>
-                Vanilla Pecan
-              </p>
+          <tr class='menu2'>
+            <td><p>Strawberry Almond</p>
+            </td>
+            <td><p>300</p>
             </td>
           </tr>
-          <tr>
-            <td>
-              <p class='menu4'>
-                Coffee Macademian
-              </p>
+          <tr  class='menu3'>
+            <td><p>Vanilla Pecan</p>
+            </td>
+            <td><p>320</p>
+            </td>
+          </tr>
+          <tr class='menu4'>
+            <td><p>Coffee Macademian</p>
+            </td>
+            <td><p>375</p>
             </td>
           </tr>
         </table>
       </section>
+
       <section class='contact-us'>
+        <h1 id='contact'>Contact Us</h1>
         <p>
-          Please contact us to request a flavor.
+          Don't see something you like?  Send us requests for new flavors of the week!
         </p>
         <form method='post' action='/submit'>
-          <input type='text' name='name' id='name' />
-          <input type='email' name='email' id='email' />
+          Flavor
           <input type='textarea' name='requested-flavor' id='requested-flavor' />
           <button type='submit' name='submit' value='Submit'>Send</button>
         </form>
