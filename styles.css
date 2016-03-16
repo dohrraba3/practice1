@@ -1,0 +1,116 @@
+
+body {
+    margin:0 auto;
+}
+
+header {
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    color: #333;
+    font-family: sans-serif;
+    background-color: #444;
+}
+
+nav {
+    background-color: #333;
+    color: #FFF;
+    font-size: 1em;
+    font-family:sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    height: 2em;
+}
+
+nav li {
+
+    float: left;
+    padding: 1em;
+    border-right: 1px solid #eee;
+    list-style-type: none;
+    display: inline;
+    width: 30%;
+
+}
+
+
+nav li:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+footer {
+    clear: both;
+    margin-top: 1em;
+    background-color: #333;
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    padding: 0.3em;
+}
+
+img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-shop {
+    padding: 0.5em;
+    background-color: rgba (160, 30, 30, 0.5);
+}
+
+.menu {
+    padding: 0.5em;
+}
+
+table {
+
+
+}
+
+.menu1:hover {
+    background-color: #663333;
+    color: white;
+    cursor: pointer;
+}
+
+.menu2:hover {
+    background-color: #CC0033;
+    color: white;
+    cursor: pointer;
+}
+
+.menu3:hover {
+    background-color: #ffffcc;
+    color: #666;
+    cursor: pointer;
+}
+
+.menu4:hover {
+    background-color: #330000;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-us {
+    clear: both;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #333;
+    color: #FFF;
+    border: none;
+}
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+}
